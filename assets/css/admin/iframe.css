@@ -1,0 +1,166 @@
+/*
+	960 Grid System ~ Text CSS.
+	Learn more ~ http://960.gs/
+
+	Licensed under GPL and MIT.
+*/
+
+/* `Basic HTML
+----------------------------------------------------------------------------------------------------*/
+
+body {
+	font: 10px verdana, Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+	color: #999;
+}
+
+input, textarea, select {
+	font-family: verdana,tahoma,arial;
+    font-size: 10px;
+}
+
+h5 {
+	font-size: 15px;
+}
+
+a {
+	color: #5A7EB8;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #5A7EB8;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #5A7EB8;
+	text-decoration: underline;
+}
+
+div.paging {
+    background: none repeat scroll 0 0 #FFFFFF;
+    clear: both;
+    color: #CCCCCC;
+    font-size: 10px;
+    margin-bottom: 5px;
+    margin-top: 1em;
+}
+div.paging span.disabled {
+    color: #DDDDDD;
+    display: inline;
+}
+div.paging span.current {
+    color: #D1D1D1;
+}
+div.paging span a {
+}
+
+
+
+/* forms
+----------------------------------------------- */
+form {
+    overflow:hidden;
+}
+fieldset {
+    border:1px solid #bbb;
+    padding:10px;
+    position:relative;
+    background:#e9e9e9;
+    margin-bottom:10px;
+	
+}
+legend {
+    font-size:10px;
+    padding:.4em .8em;
+    background:#fff;
+    border:1px solid #bbb;
+}
+fieldset.login p {
+    margin-bottom:1em;
+    margin-top:0pt;
+}
+fieldset p label {
+    width:98%;
+}
+fieldset p input {
+    width:98%;
+}
+fieldset p select {
+    width:99%;
+}
+fieldset.login p label {
+    float:left;
+    line-height:2em;
+    margin-right:3%;
+    text-align:right;
+    width:32%;
+}
+fieldset.login p input {
+    width:60%;
+}
+fieldset.login input.button {
+    margin-left:35%;
+}
+form p.notice {
+    font-weight:bold;
+}
+input.search.text {
+    width:66%;
+}
+input.search.button {
+    width:28%;
+    margin-left:2%;
+}
+
+input, select, radio, textarea {
+    padding: 3px;
+    border: 1px solid #d1d1d1;
+	/*box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.15);*/
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1) inset;
+}
+
+input:focus, textarea:focus {
+    border: 1px solid #aaccee;
+}
+
+input[type="submit"], input[type="button"], input[type="reset"], input[type="file"], button {
+    text-decoration: none;
+	text-shadow: 0 1px 0 #fff;
+	font-weight: bold;
+	color: #444;
+	cursor: pointer;
+	margin: 5px;
+	padding: 3px 4px 2px 4px;
+	
+	background: #F3F3F3;
+	border: solid 1px #D9D9D9;
+	
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	
+	-webkit-transition: border-color .50s;
+	-moz-transition: border-color .50s;
+	-o-transition: border-color .50s;
+	transition: border-color .50s;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover, button:hover {
+		background: #F4F4F4;
+		border-color: #b0b0b0;
+		color: #333;
+}
+
+
+
+input[type="submit"]:active, input[type="button"]:active, input[type="reset"]:active, button:active {
+    border:1px solid #4D90FE  !important;
+	color: #4D90FE !important;
+	-moz-box-shadow:inset 0 0 10px #D4D4D4;
+	-webkit-box-shadow:inset 0 0 10px #D4D4D4;
+	box-shadow:inset 0 0 10px #D4D4D4;
+}
+button {
+	font-size: 10px;
+}

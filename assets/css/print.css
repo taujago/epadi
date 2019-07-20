@@ -1,0 +1,203 @@
+@font-face              {font-family: franklin; src: url(fonts/FRABK.TTF)}
+@font-face              {font-family: franklin_italic; src: url(fonts/FRABKIT.TTF)}
+body.surat {
+    font-family:  aria,helvetica;
+    padding: 0;
+    margin: 0;
+}
+
+body.potrait {
+    width: 800px;
+    height: 1132px;
+}
+
+ol li {
+    
+}
+
+.content {
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+.clear {
+    clear: both;
+}
+
+.upper-case {
+    text-transform: uppercase;
+}
+
+.wrap-potrait {
+    width: 720px;
+    padding: 40px;
+    
+}
+
+/*HEADER*/
+
+.header-wrap {
+    width: inherit;   
+    text-align: center; 
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+hr {
+    padding: 0;
+    margin: 0;
+}
+
+hr.thick {
+    border: solid 2px black;
+}
+
+hr.thin {
+    margin-top: 2px;
+    border: solid 1px black;
+}
+
+.header-wrap h1, .header-wrap h2, .header-wrap h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.header-wrap h2 {
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.header-wrap h1 {
+    font-size: 20px;
+    padding: 3px 0;
+}
+
+.logo-wrap {
+    width: 25%;
+    float: left;
+}
+
+.head-text {
+    width: 50%;
+    float: left;
+}
+
+/*NOMOR SURAT*/
+
+.no-surat-wrap {
+    width: inherit;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.nama-surat {
+    margin: 0 auto;
+}
+
+.nama-surat h3 {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+/*KONTEN IDENTITAS*/
+
+ol.sub {
+    padding-left: 20px;
+}
+
+ol.sub li  {
+    vertical-align: text-top;
+}
+
+.field {
+    margin-left: 20px;
+}
+
+span.label {
+    width: 150px;
+    display: inline-block;
+    float: left;
+}
+
+div.field {
+    position: relative;
+    float: left;
+}
+
+/*KONTEN UMUM*/
+.content ul {
+    list-style-type: none;
+}
+
+.content p {
+    text-indent: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+.content .judul-tabel {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+tr.head {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+span.list-text {
+    text-align: justify;
+}
+
+span.box {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: solid 1px black;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+ul.sub {
+    padding-left: 0px;
+}
+
+/*KONTEN TANDA TANGAN*/
+.ttd-single-wrap {
+    float: right;
+    width: 300px;
+    text-align: center;
+}
+
+.jabatan {
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.nama-lurah {
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.ttd-camat {
+    float: left;
+    width: 300px;
+    text-align: center;
+}
+
+/*KONTEN CATATAN KAKI*/
+h4 {
+    margin: 0;
+    padding: 0;
+}
+ul.foot-note {
+    padding-left: 15px;
+    margin: 0;
+    list-style-type: square;
+}

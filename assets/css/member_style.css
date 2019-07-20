@@ -1,0 +1,167 @@
+#id_penduduk {
+	width: 300px;
+}
+#member-page{
+	margin: 0px auto;
+	padding: 0px 2px 1px 2px;
+	width: 90%;
+	background-color: #fff;
+	/* border: 1px solid #ccc; */
+}
+
+
+#member_content {
+	width: 100%;
+	padding: 10px 2dpx;
+	min-height: 600px;
+}
+
+#member-footer {
+margin: 2px auto;
+	padding: 0px;
+	width: 100%;
+	font-family: verdana;
+	font-size: 12px;
+	text-align: center;
+	padding: 5px 0px;
+	border:1px solid #99BBE8;
+	background-color: #fff;
+}
+#member-header {
+	height: 70px;
+	background-image: url('../images/header.png');
+
+}
+
+#member-container {
+	
+}
+
+#nav,#statusbar {
+	 margin: 2px auto;
+	 border:1px solid #99BBE8;
+	 background: url("../images/panel_title.png") repeat-x scroll 0 0 transparent;
+	 color : #00f;
+}
+
+ 
+body {
+	 
+    background-image: url('../images/background.jpg');
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    font-size: 12px;
+
+}
+
+.welcome {
+	font-size: 12px;
+}
+
+
+#statusbar {
+	line-height:30px; 
+	background-color:#AD1811; 
+	color:#00f; 
+	padding:0px 10px; 
+	text-align:right;
+	 
+}
+
+#statusbar a {
+	color:#00f;
+	text-decoration: none;
+}
+
+#statusbar a:hover {
+	color:#fff;
+	text-decoration: underline;
+	color: #ff00;
+
+}
+
+#surat {
+	border: 1px solid #99BBE8;
+	margin: 5px 0;
+    padding: 5px;
+}
+
+.kotak {
+	 
+	margin: 5px;
+	width:100px; 
+	height: 40px;	 
+	text-align: center;
+	border: 1px solid #ccc;
+	
+	background-color: #EAEAEA;
+	color : #999; 
+
+	 
+}
+ 
+.kotak:hover {
+	
+	background-image: url('../images/surat-bg.png');
+	background-repeat: repeat-x; 
+	background-color: #fff;
+
+}
+
+.menusurat {
+
+	display: block;
+	font-size: 12px;
+	color:#000;
+	text-decoration: none;
+}
+/*.menusurat:hover {
+	color: #fff;
+} */
+
+.foto {
+	padding: 3px;
+	border: #ccc solid 1px;
+}
+
+.tabel {
+	border-collapse: collapse;
+	border-spacing: 1px;
+}
+.tabel td, .tabel th {
+	border: #ccc solid 1px;
+	font-family: verdana; 
+	font-size: 12px;
+	padding: 3px;
+}
+
+.tabel th {
+	background-color: #999;
+	
+}
+
+#dlg table td {
+	vertical-align: top;
+}
+
+.simpan {
+	color:black;
+	background-image: url('../images/save.png');
+	background-position: 2px;
+	background-repeat: no-repeat;
+	padding: 1px 1px 1px 18px;
+ 	text-decoration: none;
+}
+
+.batal {
+	color:black;
+	background-image: url('../images/delete.png');
+	background-position: 2px;
+	background-repeat: no-repeat;
+	padding: 2px 2px 2px 18px;
+ 	text-decoration: none;
+}
+
+.simpan:hover, .batal:hover {
+	text-decoration: underline;
+}

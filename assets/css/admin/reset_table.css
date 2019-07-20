@@ -1,0 +1,19 @@
+tbody th,
+div.network  tbody td {
+	border: none;
+	background:#fff;
+	font-size: 10px;
+}
+
+div.network table { border: none; }
+
+
+div.network  th,div.network  td { padding:0.5em; }
+div.network  thead th { border: none; }
+div.network  tbody th { background:#e0e0e0; color:#333; }
+div.network  tbody th[scope="row"], div.network  tbody th.sub { background: none; }
+div.network  tbody th { border: none; }
+div.network  tbody td { border: none; }
+div.network  tbody tr:hover th[scope="row"],
+div.network  tbody tr:hover tbody th.sub { background:none; }
+div.network  tbody tr:hover td { background:none; }

@@ -1,0 +1,40 @@
+
+.halfmoon{
+margin-bottom: 1em;
+}
+
+.halfmoon ul{
+padding: 3px 9px 2px 5px;
+margin-left: 0;
+margin-top: 1px;
+margin-bottom: 0;
+font: bold 11px Verdana, tahoma, arial;
+list-style-type: none;
+text-align: left; /*set to left, center, or right to align the menu as desired*/
+border-bottom: 1px solid #888888;
+}
+
+.halfmoon li{
+display: inline;
+margin: 0;
+}
+
+.halfmoon li a{
+text-decoration: none;
+padding: 3px 9px 2px 5px;
+margin: 0;
+margin-right: 1px; /*distance between each tab*/
+border-left: 1px solid #DDD;
+color: black;
+font-size: 11px;
+background: #E0E0E0;
+}
+
+.halfmoon li a:visited{
+color: black;
+}
+
+.halfmoon li a:hover{
+background-color: #999;
+color: #fff;
+}
